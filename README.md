@@ -28,6 +28,7 @@ The goal of this project is to practice using Node.js for backend development, h
 ```bash
 git clone https://github.com/your-username/weather-app-nodejs.git
 cd weather-app-nodejs
+```
 
 ### 2. Install Dependency 
 npm install

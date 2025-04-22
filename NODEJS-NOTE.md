@@ -1,0 +1,1 @@
+1. To change the project to ES Module (ESM) -> in package.json change type to module
