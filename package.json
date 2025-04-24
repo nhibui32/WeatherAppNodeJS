@@ -4,7 +4,7 @@
   "description": "this is a weather app using nodejs",
   "license": "ISC",
   "author": "",
-  "type": "module", 
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "dotenv": "^16.5.0",
+    "ejs": "3.1.8",
     "express": "^5.1.0"
   },
   "devDependencies": {
