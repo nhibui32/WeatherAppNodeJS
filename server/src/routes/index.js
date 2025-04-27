@@ -13,7 +13,7 @@ const router = express.Router();
 //     res.render('sample.ejs') // tạo view động, dùng render
 // })
 
-router.get('/', getHomePage);
-router.get('/example', getStaticPage)
+router.get('/example', getHomePage);
+router.get('/', getStaticPage)
 
 export default router;

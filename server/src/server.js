@@ -32,7 +32,7 @@ configView(app);
 
 app.use('/', userRoute);
 app.use('/example', userRoute);
-
+app.use(express.static('public'));
 app.listen(port, () => {
   console.log(`Express server running at http://localhost:${port}`)
 })
