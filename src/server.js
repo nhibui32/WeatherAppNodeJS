@@ -5,8 +5,6 @@ import userRoute from './routes/index.js'
 // import path from 'path' // import path to to use path.join of ejs engine below
 import configView from './config/viewEngine.js'
 
-
- 
 const app = express();
 const port = process.env.PORT || 3000;
 
